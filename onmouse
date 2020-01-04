@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>onMouse/onLoad</title>
+</head>
+<body onUnload = "alert('are you sure?');">
+
+	
+	<a href = "#" onMouseOver = "alert('i fire my event handler');">hover over me please</a>
+	
+</body>
+
+<script type="text/javascript">
+	
+	//event handlers can be placed on links.When the mouse cursor hover over a link it fires the event handlers
+	//insert a website link on the href eg onMouseOver,onMouseOut,
+	// onload event handler fires once when your website has finished loading
+	//onUnload gets fired once the user leaves that page
+
+</script>
+
+</html>
